@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+plugins:
+ - jemoji
+ - jekyll-seo-tag
+ - jekyll-coffeescript
+ - jekyll-gist
+ - jekyll-github-metadata
+ - jekyll-paginate
+ - jekyll-relative-links
+ - jekyll-optional-front-matter
+ - jekyll-readme-index
+ - jekyll-default-layout
+ - jekyll-titles-from-headings
+theme: jekyll-theme-dinky
+title: "Jim Schindler's Blog"
+github:
+    is_user_page: true
+    is_project_page: false
