@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+     <a style="color:seashell" href="{{ post.url }}">{{ post.title }}</a>
+     {{ post.excerpt }}
+     <a href="{{ post.url }}">Continue Reading...</a>
+ {% endfor %}
